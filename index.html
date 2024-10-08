@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Connection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Connect to Wi-Fi</h1>
+        <p>Select your Wi-Fi network or enter the SSID below:</p>
+        
+        <label for="ssid-select">Available Networks:</label>
+        <select name="ssid" id="ssid-select">
+            <!-- Wi-Fi networks will be dynamically populated here -->
+        </select>
+
+        <label for="ssid-input">Or Enter SSID:</label>
+        <input type="text" name="ssid-input" id="ssid-input" placeholder="Enter SSID here" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        
+        <input type="submit" value="Connect" class="submit-button">
+    </div>
+</body>
+</html>
